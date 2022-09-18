@@ -21,10 +21,15 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    align-content: center;
 }
 .movie-item{
     margin: 15px;
 }
 .movie-item:hover{
     cursor: pointer;
+}
+.left ,.right{
+    margin: 16px;
 }
